@@ -36,8 +36,10 @@ function ProductItem(props) {
 			<ProductImages category={props.data.category} />
 			<Card.Body>
 				<Card.Title>{props.data.display_name}</Card.Title>
-				<Card.Text>{props.data.brand}</Card.Text>
-				<Card.Text>{props.data.price}</Card.Text>
+				<Card.Text>
+					{props.data.brand}({props.data.category})
+				</Card.Text>
+				<Card.Text className="product-price">₱{props.data.price}</Card.Text>
 			</Card.Body>
 			<Card.Footer className="pb-0 ps-0 pe-0">
 				<form onSubmit={addToCartHandler}>

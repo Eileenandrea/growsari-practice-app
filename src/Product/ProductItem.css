@@ -36,3 +36,9 @@ input {
 	display: inline-block;
 	vertical-align: middle;
 }
+.product-price {
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: #f57224;
+	margin-top: 0.5rem;
+}

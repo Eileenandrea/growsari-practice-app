@@ -1,4 +1,4 @@
-import logo from "./Logo.svg";
+import logo from "./logo.svg";
 import "./App.scss";
 import Cart from "./Cart/Cart";
 import Products from "./Product/Products";

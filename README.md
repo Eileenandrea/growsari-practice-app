@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 There is a live version of this app just visit
  https://grocery-list-app-react.netlify.app/
  
- -to run on local machine clone this repo 
- - open the app on Editor of preference git clone https://github.com/Eileenandrea/growsari-practice-app.git
+ -to run on local machine clone this repo git clone https://github.com/Eileenandrea/growsari-practice-app.git
+ - open the app on Editor of preference
  - run **npm install** to install packages and dependencies
  - after the packages has been installed run **npm start** 
 

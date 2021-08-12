@@ -10,3 +10,31 @@
 	font-size: 3rem;
 	font-weight: 1000;
 }
+.paginationBttns {
+	margin-left: auto;
+	padding: 5rem 0rem 5rem 0rem;
+	width: 80%;
+	height: 40px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.paginationBttns a {
+	padding: 10px;
+	margin: 8px;
+	border-radius: 5px;
+	border: 1px solid #2b2eff;
+	color: #2b2eff;
+	cursor: pointer;
+}
+
+.paginationBttns a:hover {
+	color: white !important;
+	background-color: #2b2eff;
+}
+.paginationActive a {
+	border-radius: 5px;
+	cursor: pointer;
+	color: white !important;
+	background-color: #2b2eff;
+}

@@ -7,6 +7,7 @@ import { Navbar, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function App() {
 	let cartProducts = [];
 	const init = () => {
@@ -49,7 +50,7 @@ function App() {
 	};
 	return (
 		<div className="App">
-			<Navbar expand="lg" variant="light" bg="light">
+			<Navbar sticky="top" expand="lg" variant="light" bg="light">
 				<Container>
 					<Navbar.Brand href="/">
 						<img src={logo} className="app-logo" />

@@ -6,9 +6,7 @@ import { useState } from "react";
 import "./Product.scss";
 
 function Products(props) {
-	const [productList, setProductList] = useState(
-		Product_data_list.slice(0, 50)
-	);
+	const [productList, setProductList] = useState(Product_data_list);
 
 	const [pageNumber, setPageNumber] = useState(0);
 
@@ -25,6 +23,7 @@ function Products(props) {
 	};
 	const pageCount = Math.ceil(Product_data_list.length / productPerPage);
 	const changePage = ({ selected }) => {
+		console.log(selected);
 		setPageNumber(selected);
 	};
 	return (
